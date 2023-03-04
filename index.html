@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            
+        }
+
+        .spans{
+            position: relative;
+            width:30px;
+            height: 30px;
+            background:#4fc3dc;
+            margin: 0 4px;
+            border-radius: 50%;
+            box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 100px #4fc3dc;
+            animation: animate 15s linear infinite;
+            animation-duration: calc(125s / var(--i));
+        }
+
+        .spans:nth-child(even){
+            background: #ff2d75;
+            box-shadow: 0 0 0 10px #ff2d75, 0 0 50px #ff2d75, 0 0 100px #ff2d75;   
+        }
+
+        @keyframes animate{
+            0%{transform: translateY(85vh) scale(0)}
+            100%{transform: translateY(-10vh) scale(1)}
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="bg-[#1e293b] relative">
+        <div class="bubble relative flex">
+            <span class="spans" style="--i:11;"></span>
+            <span class="spans" style="--i:12;"></span>
+            <span class="spans" style="--i:24;"></span>
+            <span class="spans" style="--i:10;"></span>
+            <span class="spans" style="--i:14;"></span>
+            <span class="spans" style="--i:23;"></span>
+            <span class="spans" style="--i:18;"></span>
+            <span class="spans" style="--i:16;"></span>
+            <span class="spans" style="--i:19;"></span>
+            <span class="spans" style="--i:20;"></span>
+            <span class="spans" style="--i:12;"></span>
+            <span class="spans" style="--i:25;"></span>
+            <span class="spans" style="--i:18;"></span>
+            <span class="spans" style="--i:21;"></span>
+            <span class="spans" style="--i:15;"></span>
+            <span class="spans" style="--i:13;"></span>
+            <span class="spans" style="--i:26;"></span>
+            <span class="spans" style="--i:17;"></span>
+            <span class="spans" style="--i:13;"></span>
+            <span class="spans" style="--i:28;"></span>
+            <span class="spans" style="--i:11;"></span>
+            <span class="spans" style="--i:12;"></span>
+            <span class="spans" style="--i:24;"></span>
+            <span class="spans" style="--i:10;"></span>
+            <span class="spans" style="--i:14;"></span>
+            <span class="spans" style="--i:23;"></span>
+            <span class="spans" style="--i:18;"></span>
+            <span class="spans" style="--i:16;"></span>
+            <span class="spans" style="--i:19;"></span>
+            <span class="spans" style="--i:20;"></span>
+            <span class="spans" style="--i:12;"></span>
+            <span class="spans" style="--i:25;"></span>
+            <span class="spans" style="--i:18;"></span>
+            <span class="spans" style="--i:21;"></span>
+            <span class="spans" style="--i:15;"></span>
+            <span class="spans" style="--i:13;"></span>
+            <span class="spans" style="--i:26;"></span>
+            <span class="spans" style="--i:17;"></span>
+            <span class="spans" style="--i:13;"></span>
+            <span class="spans" style="--i:28;"></span>
+            
+        </div>
+        <!-- <nav class="container mx-auto flex justify-between items-center py-3 ">
+            <h1 class="text-3xl font-bold text-[#BF8924]">
+                <a href="/index.html">Testers </a>
+            </h1>
+    
+            <div class="flex items-center">
+                <h6 class="mx-2 font-bold text-[14px] hover:text-[#BF8924] text-white"><a href="./blog.html">Blog</a></h6>
+                <h6 class="mx-2 font-bold text-[14px] hover:text-[#BF8924] text-white"><a href="#">Smart Store</a></h6>
+                <h6 class="mx-2 font-bold text-[14px] hover:text-[#BF8924] text-white"><a href="#">Top Earners</a></h6>
+                <h6 class="mx-2 font-bold text-[14px] hover:text-[#BF8924] text-white"><a href="#">Advert</a></h6>
+                <h6 class="mx-2 font-bold text-[14px] hover:text-[#BF8924] text-white"><a href="#">Coupon Checker</a></h6>
+                <h6 class="mx-2 font-bold text-[14px] hover:text-[#BF8924] text-white"><a href="#">Raffle</a></h6>
+                <h6 class="mx-2 font-bold text-[14px] hover:text-[#BF8924] text-white"><a href="/vendors.html">Smart Vendors</a></h6>
+                <button type="button" class=" mx-2 text-[#BF8924] hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Yellow</button>
+            </div>
+        </nav> -->
+
+
+        
+        <nav class=" px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+            <div class="container flex flex-wrap items-center justify-between mx-auto">
+            <a href="/index.html" class="flex items-center">
+                <!-- <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" /> -->
+                <span class="self-center text-3xl font-semibold whitespace-nowrap text-[#BF8924]">Vendors</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+            </button>
+            <div class="hidden w-full lg:block lg:w-auto" id="navbar-default">
+                <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg  lg:flex-row lg:space-x-8 lg:mt-0 lg:text-sm lg:font-medium lg:border-0  dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700">
+                <li>
+                    <a href="/index.html" class="block py-2 pl-3 pr-4 text-white bg-[#BF8924] rounded lg:bg-transparent lg:text-[#BF8924] lg:p-0 dark:text-white" aria-current="page">Home</a>
+                </li>
+                <li>
+                    <a href="./blog.html" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-[#BF8924] lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Blog</a>
+                </li>
+                <li>
+                    <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-[#BF8924] lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Smart Store</a>
+                </li>
+                <li>
+                    <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-[#BF8924] lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Top Earners</a>
+                </li>
+                <li>
+                    <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-[#BF8924] lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Advert</a>
+                </li>
+                <li>
+                    <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-[#BF8924] lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Coupon Checker</a>
+                </li>
+                <li>
+                    <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-[#BF8924] lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Raffle</a>
+                </li>
+                <li>
+                    <a href="/vendors.html" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-[#BF8924] lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Smart Vendors</a>
+                </li>
+                <!-- <li>
+                    <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-[#BF8924] lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Contact</a>
+                </li> -->
+                </ul>
+            </div>
+            </div>
+        </nav>
+          
+
+
+        <div class="container  mx-auto py-[20vh]">
+            
+            <div class=" lg:flex justify-between items-center">
+                <div >
+                    <div class="lg:w-9/12 text-center">
+                        <h3 class="text-white font-bold text-[50px] leading-[50px] mb-4">BE SMART CONNECT AND EARN</h3>
+                        <P class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos expedita reiciendis, debitis quam vel beatae nobis eaque corporis dicta numquam laboriosam. Similique repellat vero rem, est sed aperiam vitae voluptate saepe reiciendis cumque nisi esse?</P>
+                    </div>
+                </div>
+                <div class="lg:block hidden">
+                    <img src="/img/11.web-development.jpg" alt="" style="border-radius: 10px;" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mx-auto lg:grid grid-cols-2 my-[6rem]">
+        <div>
+            <h1 class="text-[#181823] lg:text-start text-center font-bold text-[36px] py-6">RELIABILITY AND COMMITMENT</h1>
+            <p class="text-[18ps] lg:text-start text-center  leading-8 py-4">We always deliver what we promise; we invest in strong and long-lasting partnerships. Our standards are uncompromising neither adulterate, so is our withdrawals and credits.</p>
+            <p class="text-[18ps] lg:text-start text-center  leading-8 py-4">We are constantly looking for smart ways to support our customers, to get the most out of the collaboration and to achieve the best results.</p>
+        </div>
+        <div>
+            <img src="./img/markus-winkler-ahjzVINkuCs-unsplash.jpg" style="object-fit: cover; width: 600px; height: 385px;" alt="">
+        </div>
+    </div>
+
+    <div class="flex flex-col-reverse container mx-auto lg:grid grid-cols-2 my-[6rem]">
+        <div>
+            <img src="./img/precondo-ca-GuXhiz45lq8-unsplash.jpg" style="object-fit: cover; width: 600px; height: 385px;" alt="">
+        </div>
+        <div>
+            <h1 class="text-[#181823] font-bold text-[36px] py-6 lg:text-start text-center ">SMARTNETWORK IS FOR ALL</h1>
+            <p class="text-[18ps] leading-8 py-4 lg:text-start text-center ">All that’s typically needed, as an affiliate, is a passion for your niche, and strong persuasive and commitment to make a living through Networking.</p>
+            <p class="text-[18ps] leading-8 py-4 lg:text-start text-center ">For a business, SmartNetwork offers a much-needed scale without accessing large advertising budgets. Even one successful cashout can be much more better than a traditional marketing campaign or even a highly effective online advertising campaign.</p>
+        </div>
+      
+    </div>
+
+    <div class="flex items-center w-full py-2 sm:py-6 mt-6 relative ">
+        <div class="absolute left-0 top-0 w-10/12 sm:w-full max-w-5xl flex-grow border-t-4 border-gray-200"></div>
+    </div>
+
+    <div class="relative py-5 container lg:max-w-full">
+        <div class="flex flex-col items-center justify-center h-full">
+            <h2 class="text-center text-[#BF8924] text-3xl sm:text-7xl font-bold w-full">Affiliate Marketing</h2>
+            <h2 class="text-primary text-6xl sm:text-[10em] text-center font-bold absolute w-full inset-x-auto opacity-10">Marketing</h2>
+        </div>
+    </div>
+
+    <div class="container text-center format-sm lg:format-lg lg:mt-6 dark:text-gray-200 max-w-4xl mx-auto leading-8" style="margin-top: 50px;">
+        We’re sure you’ve heard of this term before. It’s essentially an advertising model in which we reward third-party individuals for generating traffic and leads for us. It is considered to be one of the simplest, yet one of the most profitable ways to Earn a living online through Networking.
+        It doesn’t require high startup costs or product development time because it mostly relies on the power of Content marketing such as blogs, ads, referrals and social media
+    </div>
+
+    <div class="container flex flex-col-reverse mx-auto lg:grid grid-cols-2 my-[6rem]">
+        <div>
+            <img src="./img/honey-yanibel-minaya-cruz-jHezLNVDlcE-unsplash.jpg" style="object-fit: cover; width: 600px; height: 455px;" alt="">
+        </div>
+        <div>
+            <h1 class="text-[#181823] font-bold text-[36px] py-6 lg:text-start text-center ">BENEFITS OF AFFILIATE MARKETING</h1>
+            <p class="text-[18ps] leading-8 py-4">There are many digital marketing strategies that you could use to grow financially. There are solutions such as content marketing, referral programs, email marketing, social media marketing, event sponsoring, influencer marketing, and many more.</p>
+            <p class="text-[18ps] leading-8 py-4">But the thing is, none of them offer as many benefits as affiliate marketing. And that’s simply because a good affiliate marketing program as SMARTNETWORK allows businesses to promote themselves on various levels, blending smoothly with other marketing strategies in a consistent way, and ensuring maximum results at the same time.</p>
+        </div>
+      
+    </div>
+
+    <div class="flex flex-col items-center justify-center h-full">
+        <h2 class="text-[#BF8924] text-center text-3xl sm:text-7xl font-bold w-full">Connect With Us</h2>
+        <h2 class="text-primary text-5xl sm:text-[10em] text-center font-bold absolute w-full inset-x-auto opacity-10">Social Handles</h2>
+    </div>
+
+    <div class="format-lg mt-6 text-[1.5rem] dark:text-gray-200 max-w-4xl mx-auto">
+        Kindly join us on all our available medias and get live updates regularly
+    </div>
+
+
+    <div class="grid grid-cols-5 sm:grid-cols-5 gap-2 space-0 sm:gap-4 mt-6 lg:mt-10 justify-center my-[4rem]">
+        <div>
+            <div class="flex justify-center">
+                <a href="#" target="_blank" class="rounded-full shadow-lg bg-sky-100 max-w-sm p-2 sm:p-4">
+                    <img src="/img/fb.png" alt="Facebook" class="object-contain h-10 sm:h-24 w-full" >
+                </a>
+            </div>
+        </div>
+        <div>
+            <div class="flex justify-center">
+                <a href="#" target="_blank" class="rounded-full shadow-lg bg-sky-100 max-w-sm p-2 sm:p-4">
+                    <img src="/img/Twitter.png" alt="Twitter" class="object-contain h-10 sm:h-24 w-full" >
+                </a>
+            </div>
+        </div>
+        <div>
+            <div class="flex justify-center">
+                <a href="#" target="_blank" class="rounded-full shadow-lg bg-sky-100 max-w-sm p-2 sm:p-4">
+                    <img src="/img/Telegram.png" alt="Telegram" class="object-contain h-10 sm:h-24 w-full" >
+                </a>
+            </div>
+        </div>
+        <div>
+            <div class="flex justify-center">
+                <a href="#" target="_blank" class="rounded-full shadow-lg bg-gray-200 max-w-sm p-2 sm:p-4">
+                    <img src="./img/WhatsApp.png" alt="WhatsApp" class="object-contain h-10 sm:h-24 w-full" >
+                </a>
+            </div>
+        </div>
+        <div class="">
+            <div class="flex justify-center">
+                <a href="#" target="_blank" class="rounded-full shadow-lg bg-sky-100 max-w-sm p-2 lg:p-4">
+                    <img src="./img/Instagram.png" alt="Instagram" class="object-contain h-10 sm:h-24 w-full" >
+                </a>
+            </div>
+        </div>
+
+    </div>
+    
+    <footer class=" text-white pt-12 pb-6 md:pb-12 md:pt-20 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <div class="w-full grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div class="text-sm text-gray-200">
+                    <strong>SmartNetwork</strong> <br>
+                    info@smartnetworks.ng <br>
+                    Lagos Nigeria
+    
+                    <div class="flex gap-2 mt-4">
+                                                <a href="#" target="_blank" rel="noopener" class="bg-gray-900 hover:bg-primary focus:bg-primary p-2 rounded-full">
+                                <svg class="text-white hover:text-light-2 w-4 h-4" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        
+                                                <a href="https://www.facebook.com/groups/5390155457756766/?ref=share&amp;mibextid=lURqYx" target="_blank" rel="noopener" class="bg-gray-900 hover:bg-primary focus:bg-primary p-2 rounded-full">
+                                <svg class="text-white hover:text-light-2 w-4 h-4" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        
+                                                <a href="https://t.me/Smartblog_Ent" target="_blank" rel="noopener" class="bg-gray-900 hover:bg-primary focus:bg-primary p-2 rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="text-white hover:text-light-2 w-4 h-4" fill="currentColor" viewBox="0 0 496 512"><path d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"></path></svg>
+                                <span class="sr-only">Telegram</span>
+                            </a>
+                        
+                                                <a href="https://instagram.com/smartnetwork_10?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener" class="bg-gray-900 hover:bg-primary focus:bg-primary p-2 rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="text-white hover:text-light-2 w-4 h-4" fill="currentColor" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        
+                                                <a href="https://wa.link/6h3b7j" target="_blank" rel="noopener" class="bg-gray-900 hover:bg-primary focus:bg-primary p-2 rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="text-white hover:text-light-2 w-4 h-4" fill="currentColor" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg>
+    
+                                <span class="sr-only">WhatsApp</span>
+                            </a>
+                                        </div>
+                </div>
+                <div>
+                    <div class="text-xl font-bold text-light-2"> Subscribe to our newsletter</div>
+                    <form class="flex flex-nowrap items-center mt-2 lg:mt-6">
+                        <div class="flex-grow -mr-8">
+                            <label class="inline-block text-dark-3 text-sm font-medium mb-2 sr-only">Email address</label>
+                            <input type="email" placeholder="Enter your email" class="w-full py-4 px-4 bg-gray-800 border-none rounded focus:ring-primary focus:border-primary outline-none text-sm text-gray-200" required="" autocomplete="off">
+                        </div>
+                        <button class="btn p-[15px] btn-ghost rounded-full bg-white text-secondary font-semibold">
+                            <span class="text-black">Subscribe</span>
+                        </button>
+                    </form>
+                </div>
+                <div class="lg:pl-4">
+                    <ul class="grid grid-cols-2 lg:grid-cols-2 gap-1 font-medium justify-end">
+                        <li class="">
+                            <a class="inline-block text-sm text-gray-200 hover:text-primary transition-colors duration-200" href="https://smartnetwork.ng/about-us">About Us</a>
+                        </li>
+                        <li class="">
+                            <a class="inline-block text-sm text-gray-200 hover:text-primary transition-colors duration-200" href="https://smartnetwork.ng/faqs">Faqs</a>
+                        </li>
+                        <li class="">
+                            <a href="https://smartnetwork.ng/top-earners" class="inline-block text-sm text-gray-200 hover:text-primary transition-colors duration-200">Top Earners</a>
+                        </li>
+                        <li class="">
+                            <a class="inline-block text-sm text-gray-200 hover:text-primary transition-colors duration-200" href="https://smartnetwork.ng/how-to-refer">How to Refer</a>
+                        </li>
+                        <li class="">
+                            <a class="inline-block text-sm text-gray-200 hover:text-primary transition-colors duration-200" href="https://smartnetwork.ng/terms-conditions">Terms &amp; Conditions</a>
+                        </li>
+                        <li class="privacy-policy">
+                            <a class="inline-block text-sm text-gray-200 hover:text-primary transition-colors duration-200" href="https://smartnetwork.ng/privacy-policy">Privacy Policy</a>
+                        </li>
+                        <li class="">
+                            <a class="inline-block text-sm text-gray-200 hover:text-primary transition-colors duration-200" href="https://smartnetwork.ng/contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 my-6 mt-10">
+                <div class="text-xs text-white-o-75">Copyright © 2023, Smart Networks.
+    
+                </div>
+    
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+</body>
+</html>
